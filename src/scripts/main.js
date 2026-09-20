@@ -14,8 +14,8 @@ allPopulationElements.forEach((population) => {
   }
 });
 
-totalPopulationElement.textContent = totalPopulation.toLocaleString('en-IN');
+totalPopulationElement.textContent = totalPopulation.toLocaleString('en-US');
 
 averagePopulationElement.textContent = Math.round(
   totalPopulation / allPopulationElements.length,
-).toLocaleString('en-IN');
+).toLocaleString('en-US');
